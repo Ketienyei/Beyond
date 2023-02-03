@@ -10,3 +10,45 @@ body{
     height: 100vh;
     overflow: hidden;
 }
+header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: antiquewhite;
+    box-shadow: 0 0.05rem 1.5rem rgba(182, 123, 123, 0.5);
+}
+header .logo{
+    padding-left: 20px;
+}
+header .navbar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .navbar a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0.5rem;
+    color: rgb(85, 83, 196);
+    padding: 1rem 1rem;
+    border-radius: 5px;
+}
+header .navbar a:hover{
+    background-color: rgb(247, 222, 180);
+    transition: 0.6s;
+}
+header .btn{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    color:  rgb(85, 83, 196);
+    border-radius: 30git px;
+    padding: 7px 10px;
+}
+header .btn:hover{
+    background-color: rgb(247, 222, 180);
+}
