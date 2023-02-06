@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ header .navbar a{
     font-size: 1.7rem;
     font-weight: 600;
     margin: 0 0.5rem;
-    color: rgb(85, 83, 196);
+    color: rgb(28, 27, 114);
     padding: 1rem 1rem;
     border-radius: 5px;
 }
@@ -49,11 +49,11 @@ header .navbar a:hover, .active{
     background-color: rgb(247, 222, 180);
     transition: 0.6s;
 }
-header .btn{
+header .btn-btn{
     font-size: 20px;
     cursor: pointer;
     font-weight: 600;
-    color:  rgb(85, 83, 196);
+    color:  rgb(28, 27, 114);
     border-radius: 30px;
     padding: 7px 10px;
 }
@@ -86,3 +86,54 @@ header .btn:hover{
         padding-top: 10rem;
     }
 }
+
+.hero-section{
+    padding: 80px 40px;
+    width: 100%;
+    height: calc(100vh-120px);
+    background-size: cover;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section .content{
+    padding-left: 40px;
+}
+.hero-section p{
+    padding-left: 70px;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+
+.heading {
+    text-align: start;
+    font-size: 9rem;
+    color:rgb(214, 127, 13); 
+    padding-left: 2rem;
+    margin: 5rem 2rem;
+    font: weight 200px;
+    font-family:sans-serif;
+    margin-left: 2rem;
+}
+.heading span {
+    color: rgb(55, 54, 99);
+    font-weight: 200px;
+    font-family:serif;
+}
+
+.hero-section.content p {
+    margin-top: 5rem;
+    text-align: start ;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font: weight 300; 
+    display: block;
+    float: inline-start;
+}
+.hero-section .btn{
+    padding-left: 2rem;
+    align-content: center;
+}
+
+
