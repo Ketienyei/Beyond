@@ -3,5 +3,5 @@ let button = document.querySelector('btn-btn');
 
 
 button.addEventListener('click', function(){
-    navigation_bar.classList.add('active?');
+    navigation_bar.classList.add('active?')
 })

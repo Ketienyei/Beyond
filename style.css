@@ -8,6 +8,7 @@
 
 body{
     background-color: antiquewhite;
+    padding-left: 30px;
 }
 
 html{
@@ -97,6 +98,7 @@ header .navbar a:hover, .active{
 #btn1{
     float: right;
     padding-left: 20px;
+
 }
 
 /* hero-section starts here */
@@ -272,6 +274,7 @@ h2{
 
 /* section 4 containing hero2-section */
 .hero2-section {
+    padding: 110px 70px;
     margin-top: 5rem;
     font-size: 35px;
     font: weight 300; 
@@ -300,6 +303,15 @@ h2{
     float: right;
     display: flex;
 }
+
+
+/* section 5 containing hero2-section */
+
+
+
+
+
+
 
 
 
