@@ -128,7 +128,7 @@ header .navbar a:hover, .active .sub-menu-1 li{
 /* hero-section starts here */
 
 .hero-section{
-    padding: 110px 70px;
+    padding: 110px 30px;
     width: 100%;
     height: calc(100vh-120px);
     background-size: cover;
@@ -189,6 +189,15 @@ h2{
 .image p{
     display: inline-block; 
     padding: 0 20px 20px 0
+}
+
+/*hero2 section starts here*/
+
+.hero2-section{
+    padding: 110px 30px;
+    margin-top: 5rem;
+    font-size: 35px;
+    font: weight 300; 
 }
 
 .min-container{
@@ -296,16 +305,22 @@ h2{
 
 
 
-/* section 4 containing hero2-section */
-.hero2-section {
-    padding: 110px 70px;
+/* section 3 containing hero3-section */
+.hero3-section {
+    padding: 110px 30px;
     margin-top: 5rem;
     font-size: 35px;
     font: weight 300; 
-    display: inline-block;
-    
+    align-items: center;
+    column-gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
 }
-.hero2-section .btn{
+
+
+.hero3-section .btn{
     padding-left: 2rem;
     padding-bottom: 50px;
     align-content: center;
@@ -322,14 +337,20 @@ h2{
     font-size: 2rem;
     padding-left: 5rem;
 }
-.hero-section .checkout2 .myimage img{
+.hero3-section .checkout2 .myimage img{
     padding-left: 30rem;
-    float: right;
-    display: flex;
+    float: left;
+    display: grid;
 }
 
 
-/* section 5 containing hero2-section */
+
+
+/*Third section*/
+
+.third-section {
+    display: flex;
+}
 
 
 
