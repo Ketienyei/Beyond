@@ -432,6 +432,10 @@ h2{
     color: #24262b;
     background-color: #fff;
 }
+.row-two{
+    display: block;
+    flex-wrap: wrap;
+}
 
 /*footer responsiveness*/
 @media (max-width : 767px) {
