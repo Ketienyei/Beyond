@@ -50,30 +50,6 @@ header .navbar a:hover, .active{
     transition: 0.6s;
 }
 
-.sub-menu-1{
-    display: none;
-}
-header .navbar a:hover, .active .sub-menu-1{
-    display: block;
-    position: absolute;
-    background: #fff;
-    margin-top: 35px;
-    margin-left: 15px;
-}
-header .navbar a:hover, .active .sub-menu-1 ul{
-    display: block;
-    margin: 10px;
-}
-header .navbar a:hover, .active .sub-menu-1 li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #333;
-    background-color: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-
-
 
 /*Media query for navbar*/
 
