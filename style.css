@@ -8,7 +8,7 @@
 
 body{
     background-color: antiquewhite;
-    padding-left: 30px;
+    
 }
 
 html{
@@ -123,10 +123,10 @@ header .navbar a:hover, .active{
     margin-top: 5rem;
     text-align: start ;
     color: rgb(14, 4, 39);
-    text-transform: capitalize;
     font: weight 300; 
     display: block;
     float: inline-start;
+    line-height: 24px;
 }
 h2{
     color: rgb(214, 127, 13);
@@ -164,7 +164,8 @@ h2{
 
 .image p{
     display: inline-block; 
-    padding: 0 20px 20px 0
+    padding: 0 20px 20px 0;
+    line-height: 2px;
 }
 
 /*hero2 section starts here*/
@@ -174,6 +175,7 @@ h2{
     margin-top: 5rem;
     font-size: 35px;
     font: weight 300; 
+    line-height: 24px;
 }
 
 .min-container{
@@ -282,41 +284,9 @@ h2{
 
 
 /* section 3 containing hero3-section */
-.hero3-section {
-    padding: 110px 30px;
-    margin-top: 5rem;
-    font-size: 35px;
-    font: weight 300; 
-    align-items: center;
-    column-gap: 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-
-}
-
-
-.hero3-section .btn{
-    padding-left: 2rem;
-    padding-bottom: 50px;
-    align-content: center;
-}
-
-
-.checkout2 h2{
-    font-size: 2rem;
-    padding-bottom: 50px;
-    padding-left: 5rem;
-    }
-    
-.checkout2 p{
-    font-size: 2rem;
-    padding-left: 5rem;
-}
-.hero3-section .checkout2 .myimage img{
-    padding-left: 30rem;
+.team-row-2 img{
+    display: flex;
     float: left;
-    display: grid;
 }
 
 
@@ -326,6 +296,7 @@ h2{
 
 .third-section {
     display: flex;
+    
 }
 
 
