@@ -318,12 +318,146 @@ h2{
 
 
 
-/*Third section*/
-
-.third-section img{
+/*section 4 starts here*/
+.content{
     display: flex;
-    
+
 }
+.content .content2{
+    margin-top: 70px;
+}
+
+
+/*section 5 starts here*/
+.virtual-cards{
+    background-color: rgb(230, 159, 66);
+}
+.min-virtuals{
+    align-content: center;
+}
+.gallery {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    margin: 5% auto 0;
+    box-sizing: border-box;
+    background-color: rgb(199, 166, 154);
+    margin-bottom: 60px;
+
+}
+
+.image-box{
+    margin: 0 1%;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: .5s;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.image-box:hover{
+    flex-basis: 50%;
+}
+.active{
+    flex-basis: 50%;
+}
+.gallery:hover .active{
+    flex-basis: 0;
+}
+.image-box:nth :nth-child(1):hover{
+    flex-basis: 50%;
+
+}
+.title-box2{
+    padding: 30px 20px;
+}
+
+
+.title-box2 p{
+    margin-top: 10px;
+    line-height: 24px;
+    text-align: center;
+    color: #e84393;
+    font-size: medium;
+}
+.profile-box2{
+    width: 240px;
+    height: 240px;
+    background: rgb(214, 127, 13);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    box-shadow: 0 10x 10px 10px rgba(115, 193, 255, 0.1);
+    padding: 20px;
+    position: relative;
+    transition: background 0.5s;
+}
+.profile-box2 img{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 4px;
+    transition: .5s;
+
+}
+.profile-box2 h4{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #e84393;
+}
+
+small{
+    color: black;
+}
+
+.social-box2{
+    margin: 60px auto 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+.social-box2 .fab{
+    margin: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.profile-box2 p{
+    text-align: center;
+    line-height: 24px;
+    color: var(--pink);
+}
+.team-row2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+}
+
+.profile-box2 img:hover{
+    width: 200px;
+}
+.profile-box2:hover{
+    background: rgb(14, 4, 39);
+}
+.profile-box2:hover h4{
+    color: #fff;
+}
+.profile-box2:hover p{
+    color: #fff;
+}
+.profile-box2:hover small{
+    color: #eee;
+}
+.profile-box2:hover .social-box{
+    background: #555;
+}
+.profile-box2:hover .social-box .fab{
+    color: #e84393;
+}
+
 
 
 
