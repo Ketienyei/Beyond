@@ -487,7 +487,18 @@ h2{
 /*end of styling section 7*/
 
 
-
+/*store starts here*/
+.store{
+    background: white;
+    padding:  40px 40px;
+}
+.container p{
+    font-size: larger;
+    padding-left: 80px;
+}
+.container .btn{
+    margin-left: 4rem;
+}
 
 
 
