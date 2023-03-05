@@ -467,22 +467,14 @@ h2{
     font-size: 20px;
     line-height: 30px;
 }
-
-.profile-box3 .btn{
-    margin-left: 450px;
-    margin-top: 60px;
-
+ 
+#btn3{
+    align-content: center;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
 }
 
-.profile-box3:hover{
-    background: rgb(14, 4, 39);
-}
-.profile-box3:hover h1{
-    color: #fff;
-}
-.profile-box3:hover p{
-    color: #fff;
-}
+
 
 /*end of styling section 7*/
 
