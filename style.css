@@ -480,6 +480,68 @@ h2{
 
 
 /*store starts here*/
+
+.hero-section2{
+    padding: 110px 30px;
+    width: 100%;
+    height: calc(100vh-120px);
+    background-size: cover;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section2 .content{
+    padding-left: 40px;
+}
+.hero-section2 p{
+    padding-left: 20px;
+    font-size: 1.8rem;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-top: 5rem;
+    text-align: start ;
+    color: rgb(68, 49, 117);
+    font: weight 300; 
+    display: block;
+    float: inline-start;
+    line-height: 25px;
+}
+h2{
+    color: rgb(189, 143, 82);
+    font-weight: 900;
+}
+
+.heading2 {
+    text-align: start;
+    font-size: 9rem;
+    color:rgb(40, 207, 230); 
+    padding-left: 35px;
+    margin: 5rem 2rem;
+    font: weight 1000px;
+    font-family: serif;
+    margin-left: 2rem;
+}
+.heading2 span {
+    color:  rgb(3, 51, 90);
+    font-weight: 1000px;
+    font-family:serif;
+}
+
+.image{
+    display: flex;
+    margin: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    overflow: flip;
+    padding-left: 50px;
+}
+
+.image p{
+    display: inline-block; 
+    padding: 0 20px 20px 0;
+    line-height: 2px;
+}
+
 .store{
     background: white;
     padding:  40px 40px;
