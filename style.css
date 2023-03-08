@@ -227,18 +227,22 @@ h2{
     margin-bottom: 5px;
     color: rgb(214, 127, 13);
 }
-.profile-box img h3{
-    display: flex;
+.h3{
+    display: block;
+    padding-bottom: 100px;
+    float: right;
+    padding-right: 60px;
+    justify-content: space-around;
+    margin-bottom: 120px;
 }
+
 
 .profile-box p{
     text-align: center;
     line-height: 24px;
    
 }
-.profile-box .img{
-    display: flexbox;
-}
+
 .team-row{
     display: flex;
     justify-content: space-between;
@@ -568,6 +572,9 @@ h2{
 .store{
     background: white;
     padding:  40px 40px;
+}
+.store h2{
+    color: rgb(214, 127, 13);;
 }
 .container p{
     font-size: larger;
