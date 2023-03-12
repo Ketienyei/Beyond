@@ -767,7 +767,7 @@ h2{
     padding:  40px 40px;
 }
 .store h2{
-    color: rgb(214, 127, 13);;
+    color: rgb(214, 127, 13);
 }
 .container p{
     font-size: larger;
@@ -863,6 +863,31 @@ h2{
 
 .navbar2 .dd_main.active .dd_menu{
 	display: flex;
+}
+
+
+/*form styling*/
+
+.form-form{
+    padding-top: 300px;
+}
+
+form{
+    align-items: center;
+    margin-left: 300px;
+    color:  rgb(214, 127, 13);
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 200px;
+    
+}
+input{
+    border-radius: 4em;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(14, 4, 39);
+    transition: background 0.5s;
+    width: 50%;
+    height: 30px;
 }
 
 
