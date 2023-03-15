@@ -1,10 +1,8 @@
-let navigation_bar = document.querySelector('navbar');
-let button = document.querySelector('btn-btn');
-
-
-button.addEventListener('click', function(){
-    navigation_bar.classList.add('active?')
-})
+const button = document.getElementById('btn');
+  button.addEventListener('click', function() {
+    // Add your functionality here
+    console.log('Button clicked!');
+  });
 
 
 

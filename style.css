@@ -25,7 +25,7 @@ header{
     align-items: center;
     padding: 3px 6px;
     background-color: antiquewhite;
-    box-shadow: 0 0.05rem 1.5rem rgba(182, 123, 123, 0.5);
+    box-shadow: 0 0.05rem 1.5rem rgba(179, 100, 100, 0.5);
 }
 header .logo{
     padding-left: 40px;
@@ -100,9 +100,9 @@ header .navbar a:hover, .active{
     padding-left: 20px;
 }
 
-.btn-checkout{
+.btn-btn2{
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 6rem;
     border-radius: 2rem;
     background: rgb(14, 4, 39);
     color: #fff;
@@ -110,11 +110,17 @@ header .navbar a:hover, .active{
     cursor: pointer;
     font-size: 1.5rem;
     padding-right: 20px;
-    margin-left: 4rem;
-    align-items: center;
+    margin-left: 45rem;
+
 }
 
+.btn-btn2:hover{
+    background: rgb(243, 142, 9); 
+}
+
+
 /* hero-section starts here */
+
 
 .hero-section{
     padding: 110px 30px;
@@ -125,11 +131,11 @@ header .navbar a:hover, .active{
     justify-content: center;
     align-items: center;
 }
-.hero-section .content{
+.hero-section .checkout{
     padding-left: 40px;
 }
 .hero-section p{
-    padding-left: 30px;
+    padding-left: 10px;
     font-size: 1.8rem;
     justify-content: space-between;
     padding-bottom: 35px;
@@ -140,28 +146,34 @@ header .navbar a:hover, .active{
     display: block;
     float: inline-start;
     line-height: 25px;
-    margin-left: 3rem;
-    margin-bottom: 3rem
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+    font-weight: 300;
 }
 h2{
     color: rgb(214, 127, 13);
     font-weight: 900;
 }
 
-.heading {
+.heading2 {
     text-align: start;
-    font-size: 9rem;
+    font-size: 12rem;
     color:rgb(214, 127, 13); 
     padding-left: 35px;
     margin: 5rem 2rem;
     font: weight 1000px;
     font-family: serif;
     margin-left: 2rem;
+   padding-top: 70px;
+   padding-left: 50px;
+   margin-top: 6rem;
 }
-.heading span {
+.heading2 span {
     color: rgb(14, 4, 39);
     font-weight: 1000px;
     font-family:serif;
+    font-size: 10rem;
+
 }
 
 .image{
@@ -194,26 +206,28 @@ h2{
 .min-container{
     display: flex;
     padding: 30px;
+    padding-bottom: 130px;
 }
 .checkout  h2{
     font-size: 2.5rem;
-    padding-bottom: 30px;
+    padding-top: 200px;
     padding-left: 40px;
     color: rgb(214, 127, 13);
     }
     
 .checkout p{
     font-size: 1.6rem;
-     padding-bottom: 20px;
+     padding-bottom: 30px;
      padding-left: 40px;
      line-height: 25px;
+     padding-top: 20px;
 
 }
 .profile-box{
-    padding: 2rem;
-    margin: 2rem 0;
+    padding: 5rem;
+    margin: 5rem ;
     width: 300px;
-    height: 500px;
+    height: 640px;
     background: rgb(214, 127, 13);
     border-radius: 4em;
     margin-bottom: 30px;
@@ -302,6 +316,8 @@ h2{
 .outpays{
     padding-top: 70px;
 }
+
+
 
 
 
@@ -408,12 +424,13 @@ h2{
     position: relative;
     width: 500px;
     height: 280px;
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff; 
     margin: 0px 20px;
     border-radius: 20px;
     overflow: hidden;
     display: inline-flex;
     margin: 80px;
+    background-color:rgb(243, 142, 9);
 }
 
 .card::before {
@@ -679,11 +696,7 @@ h2{
     line-height: 30px;
 }
  
-#btn3{
-    text-align: center;
-    margin-left: 5rem;
-    
-}
+
 
 
 
@@ -762,20 +775,7 @@ h2{
     line-height: 2px;
 }
 
-.store{
-    background: white;
-    padding:  40px 40px;
-}
-.store h2{
-    color: rgb(214, 127, 13);
-}
-.container p{
-    font-size: larger;
-    padding-left: 80px;
-}
-.container .btn{
-    margin-left: 4rem;
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
 
 
