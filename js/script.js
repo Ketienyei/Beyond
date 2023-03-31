@@ -1,4 +1,5 @@
-const btn = document.getElementsid('btn');
-btn.addEventListener('click', function() {
-  alert('Button clicked!');
-});
+function redirectToPage() {
+  window.location.href = "contactus.html";
+}
+
+<button onclick="redirectToPage()">Contact Us</button>
