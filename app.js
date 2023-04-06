@@ -1,7 +1,4 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
-const app = express();
+
 const port = 3000;
 
 mongoose.connect('mongodb://localhost/beyond', { useNewUrlParser: true, useUnifiedTopology: true });
@@ -14,8 +11,8 @@ const UserSchema = new mongoose.Schema({
 
 const User = mongoose.model('User', UserSchema);
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/signup.html');
@@ -37,6 +34,30 @@ app.post('/signup', (req, res) => {
         }
     });
 });
+
+
+
+
+const contactSchema = new mongoose.Schema({
+  fullname: {
+    type: String,
+    required: true
+  },
+  companyname: {
+    type: String,
+    required: true
+  },
+  emaoladress: {
+    type: String,
+    required: true
+  },
+  message: {
+    type: String,
+    required: true
+  }
+}, { timestamps: true });
+
+module.exports = mongoose.model('Contact', contactSchema);
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);

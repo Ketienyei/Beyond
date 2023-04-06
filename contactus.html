@@ -9,9 +9,27 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
+<body style="background-color: antiquewhite;">  
 <div > 
+    <header> 
+        <img src="img/beyond.png" class="logo">
+
+
+        <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="store.html">Store</a>
+        <a href="payments.html">Payments</a>
+        <a href="commerce.html">Commerce</a>
+        <a href="issuing.html">Issuing</a>
+        <a href="capital.html">Capital</a>
+        </nav>
+
+        <a href="sign-up.html"><button class="btn" id="btn1">Sign-up</button></a>
+    </header>
+
+
     <section class="hero-section">
-      <h1 class="heading2">Contact our <span> sales team</span></h1>
+      <h1 class="heading2">Contact our <span> <br> sales team</span></h1>
   <div class="checkout">
                 <p>With Beyond you can Sell online, process payments, <br>
                      build financial products, or use business tools designed <br>
@@ -22,19 +40,192 @@
                 </section>
                     <div> 
                 
-    
-            <div class="contact-in">
-                <h1 class="heading2">Send a Message</h1>
-                <form >
-                     <Input type="text" placeholder="Full Name" class="contact-in-input">
-                     <Input type="text" placeholder="Email" class="contact-in-input">
-                     <Input type="text" placeholder="Subject" class="contact-in-input">
-                     <textarea placeholder="Message" class="contact-in-textarea"></textarea>
-                     <Input type="submit" value="SUBMIT" class="contact-in-btn">
-                     
-                                                                                                                                                                                                                                                                                                                                                                                                                                       nnnnnnnnnnnnnnnn                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-
-                </form>
-            </div>
+                        <form id="contact-form">
+                            <div class="form-group">
+                              <label for="name">Full Name:</label>
+                              <input type="text" class="form-control" id="name" name="name" required> <br>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Company Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" required> <br>
+                              </div>
+                            <div class="form-group">
+                              <label for="email">Email Adress:</label>
+                              <input type="email" class="form-control" id="email" name="email" required> <br>
+                            </div>
+                            <div class="form-group">
+                              <label for="subject">Country your business is registered:</label>
+                              <select class="form-control" id="subject" name="subject" required> <br>
+                                <option value="">Country your business is registered</option>
+                                <option value="">Kenya</option>
+                                <option value="">Tanzania</option>
+                                <option value="">Uganda</option>
+                                <option value="">South Africa</option>
+                                <option value="">Ethiopia</option>
+                                <option value="">Nigeria</option>
+                                <option value="">Egypt</option>
+                                <option value="">Cameroon</option>
+                                <option value="">Rwanda</option>
+                                <option value="">United States</option>
+                                <option value="">United Kingdom</option>
+                                <option value="">Europe</option>
+                              </select> <br>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Phone Number:</label>
+                                <input type="text" class="form-control" id="name" name="name" required> <br>
+                              </div>
+                              <div class="form-group">
+                                <label for="subject">Business Type:</label>
+                                <select class="form-control" id="subject" name="subject" required> <br> <br>
+                                    <option value="">Business Type</option>
+                                  <option value="">Individual Account</option>
+                                  <option value="">Business Account</option>
+                                  <option value="">Non-profit Entity</option>
+                                </select> <br>
+                              </div>
+                              <div class="form-group">
+                                <label for="name">Business Website/Social media link:</label>
+                                <input type="text" class="form-control" id="name" name="name" required> <br>
+                              </div>
+                              <div class="form-group">
+                                <label for="subject">Number of Employees:</label>
+                                <select class="form-control" id="subject" name="subject" required> <br> <br>
+                                    <option value="">Number of Employees</option>
+                                  <option value="">Under 10 Employees</option>
+                                  <option value="">11 - 50 Employees</option>
+                                  <option value="">50 - 250 Employees</option>
+                                  <option value="">250 - 1000 Employees</option>
+                                  <option value="">1000+ Employees</option>
+                                </select> <br>
+                              </div>
+                              <div class="form-group">
+                                <label for="subject">Annual Processing volume in USSD:</label>
+                                <select class="form-control" id="subject" name="subject" required> <br> <br>
+                                <option value="">Annual Processing volume in USSD</option>
+                                  <option value="">Under $20,000</option>
+                                  <option value="">$20,000 - $100,000</option>
+                                  <option value="">$100,000 - $500,000</option>
+                                  <option value="">$500,000 - $1M</option>
+                                  <option value="">$1M - $5M</option>
+                                  <option value="">$5M+</option>
+                                </select> <br>
+                              </div>
+                              <div class="form-group">
+                                <label for="subject">Industry:</label>
+                                <select class="form-control" id="subject" name="subject" required> <br> <br>
+                                    <option value="">Industry</option>
+                                  <option value="">Fintech Company</option>
+                                  <option value="">Retail and eCommerce</option>
+                                  <option value="">Cryptocurrency and Blockchain</option>
+                                  <option value="">Bank and other Financial Institution</option>
+                                  <option value="">Gaming</option>
+                                  <option value="">Media and Entertainment</option>
+                                  <option value="">Travel, Restaurants and Hospitality</option>
+                                  <option value="">Healthcare</option>
+                                  <option value="">Education</option>
+                                  <option value="">Charites and NGOs</option>
+                                  <option value="">Telecommunication and Internes Service Providers</option>
+                                  <option value="">Supply, Wholesale and Logistics</option>
+                                  <option value="">Manufacturing</option>
+                                  <option value="">Software & Technology</option>
+                                  <option value="">Government Services</option>
+                                  <option value="">Others</option>
+                                </select> <br>
+                              </div>
+                              <div class="form-group">
+                                <label for="subject">What specific solution are you intrested in?</label>
+                                <select class="form-control" id="subject" name="subject" required> <br> <br>
+                                  <option value="">What specific solution are you intrested in?</option>
+                                  <option value="">Receive and Make Payments</option>
+                                  <option value="">Payments links & subscriptions</option>
+                                  <option value="">Invoicing</option>
+                                  <option value="">Wallet and Payment API</option>
+                                  <option value="">Online eCommerce Store</option>
+                                  <option value="">Card Issuing</option>
+                                  <option value="">Loans</option>
+                                  <option value="">Value Added Services(Airtime, Cable, Utilities... etc)</option>
+                                  <option value="">Verification Services</option>
+                                  <option value="">Point Of Sale(POS) machines</option>
+                                  <option value="">Registering Business Abroad</option>
+                                  
+                                </select> <br>
+                              </div>
+                            
+                            <button type="submit" class="btn">Submit</button>
+                          </form>
             
         </div>
+
+        <footer>
+            <div class="contents">
+              <div class="top">
+                <div class="logo-details">
+                  <img src="img/beyond.png" class="logo">
+                </div>
+        
+        
+                <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+              <div class="link-boxes">
+                <ul class="box">
+                  <li class="link_name">Products</li>
+                  <li><a href="#">Collect Payments</a></li>
+                  <li><a href="#">Send Money</a></li>
+                  <li><a href="#">Payment Links</a></li>
+                  <li><a href="#">Capital</a></li>
+                  <li><a href="#">Grow</a></li>
+                  <li><a href="#">Card Issuing</a></li>
+                </ul>
+                <ul class="box">
+                  <li class="link_name">Resources</li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Integrations</a></li>
+                  <li><a href="#">Why you got charged</a></li>
+                  <li><a href="#">Cookie settings</a></li>
+                </ul>
+                <ul class="box">
+                  <li class="link_name">Developers</li>
+                  <li><a href="#">API Documentation</a></li>
+                  <li><a href="#">API Reference</a></li>
+                  <li><a href="#">API Status</a></li>
+                </ul>
+                <ul class="box">
+                  <li class="link_name">Beyond</li>
+                  <li><a href="#">Customers</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Press kit</a></li>
+                  <li><a href="#">M-pesa</a></li>
+                </ul>
+                <ul class="box input-box">
+                  <li class="link_name">Subscribe</li>
+                  <li><input type="text" placeholder="Enter your email"></li>
+                  <li><input type="button" value="Subscribe"></li>
+                </ul>
+              </div>
+            </div>
+            <div class="bottom-details">
+              <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2021 <a href="#">Beyond.</a>All rights reserved</span>
+                <span class="policy_terms">
+                  <a href="#">Privacy policy</a>
+                  <a href="#">Terms & condition</a>
+                </span>
+              </div>
+            </div>
+          </footer>
+            
+            <script defer="defer" src="js/script.js" ></script>
+                
+        
+            
+        </body>
+        </html>
