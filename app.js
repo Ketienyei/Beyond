@@ -1,7 +1,7 @@
 
 const port = 3000;
 
-mongoose.connect('mongodb://localhost/beyond', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost/beyonddb', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const UserSchema = new mongoose.Schema({
     username: String,

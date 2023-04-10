@@ -839,6 +839,9 @@ input{
 
 
 
+.classic{
+  display: flex;
+}
 
 
 
