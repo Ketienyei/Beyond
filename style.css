@@ -823,11 +823,24 @@ input{
 }
 
 
+.millions{
+  margin: 100px;
+  margin-bottom: 300px;
+}
+
 .millions img{
     height: 400px;
     width: 70%;
-    margin: auto
+    margin: auto;
 
+}
+.millions p{
+  font-size: 70px;
+  padding: 70px;
+  color: rgb(214, 127, 13);
+  font-weight: bolder;
+  padding-top: 300px;
+  line-height: 100px;
 }
 
 
@@ -846,6 +859,110 @@ input{
 
 
 /*Contact section ends here*/
+
+/*store section starts here*/
+
+.store{
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-color: bisque;
+}
+.store-container{
+  font-size: 1.6rem;
+  color: rgb(3, 51, 90);
+  padding-left: 130px
+}
+.create{
+  padding-top: 50px;
+}
+.create p{
+  line-height: 23px;
+}
+
+.profile-box-3{
+  display: flex;
+  flex: 1;
+  padding: 5rem;
+  margin: 5rem ;
+  width: 700px;
+  height: 640px;
+  background: blanchedalmond;
+  border-radius: 4em;
+  margin-bottom: 30px;
+  box-shadow: 10px 10px 10px 10px rgb(3, 51, 90);
+  position: relative;
+  transition: background 0.5s;
+  padding-top: 150px;
+  padding-bottom: 200px
+  
+}
+
+.profile-box-hot{
+  width: 250px;
+  height: 150px;
+  background: rgb(90, 51, 90);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 10x 10px 10px rgba(115, 193, 255, 0.1);
+  padding: 20px;
+  position: relative;
+  transition: background 0.5s;
+  display: flex;
+}
+.profile-box-hot img{
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 4px;
+  transition: .5s;
+
+}
+.profile-box-hot img:hover{
+  width: 200px;
+}
+.profile-box-hot:hover{
+  background: palevioletred;
+}
+.furniture{
+  display: flex;
+
+}
+.furniture img{
+  width: 150%;
+  height: 700px;
+  margin: 150px 0 150px 0;
+}
+
+.furniture p{
+  padding-top: 350px;
+  font-size: 60px;
+  line-height: 70px;
+
+}
+
+.furniture2{
+  display: flex;
+
+}
+.furniture2 img{
+  width: 50%;
+  height: 700px;
+  float: right;
+}
+
+
+.furniture2 p{
+  font-size: 60px;
+  line-height: 70px;
+  padding-top: 300px;
+  padding-left: 40px;
+
+}
+
+
 
 
 

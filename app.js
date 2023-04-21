@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/signup.html');
 });
 
-app.post('/signup', (req, res) => {
+app.post('/signup', (req, res)=> {
     const user = new User({
         username: req.body.username,
         email: req.body.email,
