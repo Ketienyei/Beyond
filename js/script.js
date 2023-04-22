@@ -23,3 +23,18 @@ $(document).ready(function() {
     });
   });
 });
+
+
+
+
+// Get the select element
+var select = document.querySelector('select');
+
+// Add a change event listener
+select.addEventListener('change', function() {
+  // Get the selected value
+  var selectedValue = select.value;
+
+  // Do something with the selected value
+  console.log(selectedValue);
+});

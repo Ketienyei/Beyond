@@ -823,26 +823,6 @@ input{
 }
 
 
-.millions{
-  margin: 100px;
-  margin-bottom: 300px;
-}
-
-.millions img{
-    height: 400px;
-    width: 70%;
-    margin: auto;
-
-}
-.millions p{
-  font-size: 70px;
-  padding: 70px;
-  color: rgb(214, 127, 13);
-  font-weight: bolder;
-  padding-top: 300px;
-  line-height: 100px;
-}
-
 
 
 
@@ -882,9 +862,10 @@ input{
 }
 
 .profile-box-3{
-  display: flex;
+  display: block;
   flex: 1;
   padding: 5rem;
+  padding-left: 200px;
   margin: 5rem ;
   width: 700px;
   height: 640px;
@@ -900,16 +881,17 @@ input{
 }
 
 .profile-box-hot{
-  width: 250px;
+  width: 300px;
   height: 150px;
   background: rgb(90, 51, 90);
   border-radius: 10px;
   margin-bottom: 30px;
   box-shadow: 0 10x 10px 10px rgba(115, 193, 255, 0.1);
-  padding: 20px;
+  padding: 40px;
   position: relative;
   transition: background 0.5s;
   display: flex;
+  
 }
 .profile-box-hot img{
   width: 100px;
@@ -961,6 +943,59 @@ input{
   padding-left: 40px;
 
 }
+.millions{
+  margin: 100px;
+  margin-bottom: 300px;
+}
+
+.millions img{
+    height: 400px;
+    width: 70%;
+    margin: auto;
+
+}
+.millions p{
+  font-size: 70px;
+  padding: 70px;
+  color: rgb(214, 127, 13);
+  font-weight: bolder;
+  padding-top: 300px;
+  line-height: 100px;
+}
+
+/* Style the select element */
+.Frequently{
+margin: 150px;
+padding-left: 170px;
+background-color: bisque;
+}
+.Frequently h2{
+  font-size: 50px;
+  margin-top: 60px;
+}
+
+.Frequently select {
+  width: 800px;
+  padding: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* Style the option elements */
+.Frequently option {
+  padding: 10px;
+}
+
+.security{
+  display: flex;
+  flex: 1;
+}
+
+
 
 
 
