@@ -123,7 +123,6 @@ header .navbar a:hover, .active{
 
 
 .hero-section{
-    padding: 110px 30px;
     width: 100%;
     height: calc(100vh-120px);
     background-size: cover;
