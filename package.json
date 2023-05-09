@@ -1,7 +1,6 @@
 {
   "name": "beyond",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -126,5 +125,6 @@
   "bugs": {
     "url": "https://github.com/Ketienyei/Beyond/issues"
   },
-  "homepage": "https://github.com/Ketienyei/Beyond#readme"
+  "homepage": "https://github.com/Ketienyei/Beyond#readme",
+  "description": ""
 }

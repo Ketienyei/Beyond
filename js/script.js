@@ -38,3 +38,32 @@ select.addEventListener('change', function() {
   // Do something with the selected value
   console.log(selectedValue);
 });
+
+// transaction
+const form = document.querySelector('form');
+const status = document.querySelector('#status');
+
+form.addEventListener('submit', async (event) => {
+  event.preventDefault();
+
+  const phoneNumber = form.elements.phoneNumber.value;
+  const amount = form.elements.amount.value;
+  const reference = form.elements.reference.value;
+
+  try {
+    const response = await fetch('/pay', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ phoneNumber, amount, reference }),
+    });
+
+    const result = await response.text();
+
+    status.innerHTML = result;
+  } catch (error) {
+    console.error(error);
+    status.innerHTML = 'Payment failed!';
+  }
+});

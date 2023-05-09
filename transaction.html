@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>M-PESA Payment</title>
+  </head>
+  <body>
+    <h1>Beyond  Payment</h1>
+    <form>
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
+      <label for="amount">Amount:</label>
+      <input type="text" id="amount" name="amount"><br><br>
+      <label for="reference">Reference:</label>
+      <input type="text" id="reference" name="reference"><br><br>
+      <input type="submit" value="Pay" onclick="pay()"><br><br>
+      <div id="status"></div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

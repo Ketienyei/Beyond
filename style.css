@@ -123,8 +123,6 @@ header .navbar a:hover, .active{
 
 
 .hero-section{
-    width: 100%;
-    height: calc(100vh-120px);
     background-size: cover;
     display: inline-block;
     justify-content: center;
