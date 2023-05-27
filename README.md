@@ -1,2 +1,2 @@
 # Beyond
-fintech company 
+fintech companie
